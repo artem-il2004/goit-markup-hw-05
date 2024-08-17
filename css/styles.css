@@ -609,7 +609,14 @@ a {
     text-decoration: none;
 }
 
-
+.email-p
+{
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+}
 .email-input
 {
     margin-left: 80px;
@@ -676,6 +683,7 @@ a {
 .submit-sprite-icon
 {
     fill: #fff;
+    margin-left: 16px;
 }
 
 
