@@ -501,10 +501,11 @@
                 type="text"
                 class="modal-input"
                 id="user-name"
+                name="user-name"
                 required
                 checked
               />
-              <svg class="modal-icon" height="18" width="24">
+              <svg class="modal-icon" height="24  " width="18">
                 <use href="./images/icons.svg#person-black"></use>
               </svg>
             </div>
@@ -515,11 +516,11 @@
               <input
                 type="text"
                 class="modal-input"
-                id="user-name"
+                id="user-phone"
                 required
                 checked
               />
-              <svg class="modal-icon" height="18" width="24">
+              <svg class="modal-icon" height="24" width="18">
                 <use href="./images/icons.svg#phone-black"></use>
               </svg>
             </div>
@@ -534,17 +535,16 @@
                 required
                 checked
               />
-              <svg class="modal-icon" height="18" width="24">
+              <svg class="modal-icon" height="24" width="18">
                 <use href="./images/icons.svg#email-black"></use>
               </svg>
             </div>
           </div>
           <div class="form-wrapper-cont-comment">
-            <label for="user-comment" class="modal-label-textarea"
-              >Comment</label
-            >
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               id="user-comment"
+              name="user-comment"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
@@ -554,11 +554,12 @@
               type="checkbox"
               class="checkbox-input visually-hidden"
               value="books"
-              id="privacy"
+              id="user-privacy"
+              name="user-privacy"
             />
-            <label class="checkbox-label" for="privacy">
+            <label class="checkbox-label" for="user-privacy">
               <span class="custom-checkbox">
-                <svg class="checkbox-icon" height="10" width="8">
+                <svg class="checkbox-icon" height="8" width="10">
                   <use href="./images/icons.svg#Vector"></use>
                 </svg>
               </span>
@@ -567,9 +568,7 @@
               <a href="#" class="privacy-link">Privacy Policy</a></label
             >
           </div>
-          <div class="button-modal">
-            <button class="modal-submit" type="submit">Send</button>
-          </div>
+          <button class="modal-submit" type="submit">Send</button>
         </form>
 
         <!-- <button type="modal-window-btn">Send</button> -->
