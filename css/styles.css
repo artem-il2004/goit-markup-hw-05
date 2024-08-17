@@ -628,6 +628,7 @@ a {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    gap:24px;
 }
 .email-label
 {
@@ -638,9 +639,7 @@ a {
         letter-spacing: 0.02em;
         color: #fff;
 }
-.form-footer {
-    gap: 24px;
-}
+
 .email-input-field
 { margin-top: 16px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -670,7 +669,7 @@ a {
     background: #4d5ae5;          
     border: none;
     color: #fff;       
-cursor: pointer
+cursor: pointer;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
         font-size: 16px;
